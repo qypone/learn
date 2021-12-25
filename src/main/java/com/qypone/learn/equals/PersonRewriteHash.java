@@ -1,10 +1,12 @@
-package com.qypone.learn.util;
+package com.qypone.learn.equals;
 
-public class Person {
+import java.util.Objects;
+
+public class PersonRewriteHash {
   private String name;
   private int age;
 
-  public Person(String name, int age) {
+  public PersonRewriteHash(String name, int age) {
     this.name = name;
     this.age = age;
   }
@@ -23,5 +25,10 @@ public class Person {
 
   public void setAge(int age) {
     this.age = age;
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name);
   }
 }

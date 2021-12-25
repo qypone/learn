@@ -1,4 +1,4 @@
-package com.qypone.learn.util;
+package com.qypone.learn.equals;
 
 public class Numbers {
 

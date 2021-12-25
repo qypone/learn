@@ -1,6 +1,4 @@
-package com.qypone.learn.util;
-
-import java.util.Objects;
+package com.qypone.learn.equals;
 
 public class PersonRewriteEquals {
   private String name;
