@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class TempTest {
+public class TimeUnitTest {
 
   @Test
   public void test () {
