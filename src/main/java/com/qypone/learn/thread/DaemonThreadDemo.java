@@ -1,6 +1,6 @@
 package com.qypone.learn.thread;
 
-public class DaemonThreadTest {
+public class DaemonThreadDemo {
 
   public static void main(String[] args) {
     Runnable task = new Runnable() {
