@@ -7,17 +7,17 @@ public class Fibonacci {
 
   public static void main(String[] args) {
 
-    long l = System.currentTimeMillis();
-    int result_1 = fibonacci_1(40);
+    long begin = System.currentTimeMillis();
+    int result_1 = fibonacci_1(50);
+    long end = System.currentTimeMillis();
     System.out.println(result_1);
+    System.out.println("测试1耗时："+ (end - begin));
 
-    long l1 = System.currentTimeMillis();
-    System.out.println(l1-l);
-    int result_2 = fibonacci_2(40);
-
+    long begin2 = System.currentTimeMillis();
+    int result_2 = fibonacci_2(50);
+    long end2 = System.currentTimeMillis();
     System.out.println(result_2);
-    long l2 = System.currentTimeMillis();
-    System.out.println(l2-l1);
+    System.out.println("测试2耗时："+ (end2 - begin2));
   }
 
   public static int fibonacci_2(int n) {
