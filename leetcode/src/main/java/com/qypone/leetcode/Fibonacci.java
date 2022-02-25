@@ -1,7 +1,7 @@
 package com.qypone.leetcode;
 
 /**
- * 斐波那契数量的递归、循环实现
+ * 斐波那契的递归、循环实现
  */
 public class Fibonacci {
 
