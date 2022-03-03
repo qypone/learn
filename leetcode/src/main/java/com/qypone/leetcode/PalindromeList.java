@@ -25,7 +25,7 @@ public class PalindromeList {
 
       ListNode nextNode = head;
       int index = 0;
-      int[] nodeValues = new int[10];
+      int[] nodeValues = new int[10000];
       while (nextNode != null) {
         nodeValues[index] = nextNode.val;
         nextNode = nextNode.next;
