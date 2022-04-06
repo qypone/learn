@@ -29,4 +29,10 @@ public class StringEqualsTest {
     String h = new String("4");
     assertTrue(g.equals(h));
   }
+
+  @Test
+  public void testMatch() {
+    boolean matches = "WUH157".matches("^[A-Za-z0-9]{1,20}$");
+    System.out.println(matches);
+  }
 }
