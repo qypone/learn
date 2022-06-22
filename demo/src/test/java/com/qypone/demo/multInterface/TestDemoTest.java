@@ -13,6 +13,7 @@ public class TestDemoTest {
 
     @Test
     public void test() {
+
         for (CalcInterface calcInterface : calcInterfaces) {
             System.out.println(calcInterface);
         }
