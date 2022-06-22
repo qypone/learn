@@ -17,5 +17,6 @@ public class TestDemoTest {
         for (CalcInterface calcInterface : calcInterfaces) {
             System.out.println(calcInterface);
         }
+
     }
 }
